@@ -12,7 +12,7 @@ import dev.seriy0904.valorantapi.Api.Data
 import dev.seriy0904.valorantapi.R
 import dev.seriy0904.valorantapi.ui.SelectedAgentActivity
 
-class MainListAdapter() : RecyclerView.Adapter<MainListAdapter.ViewHolder>() {
+class MainListAdapter : RecyclerView.Adapter<MainListAdapter.ViewHolder>() {
     private val mainListModels: ArrayList<Data> = arrayListOf()
 
     class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {

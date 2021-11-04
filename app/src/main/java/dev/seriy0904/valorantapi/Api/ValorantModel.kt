@@ -23,7 +23,7 @@ data class Data(
     val isFullPortraitRightFacing: Boolean,
     val isPlayableCharacter: Boolean,
     val killFeedPortrait: String,
-    val role: Role,
+    val role: Role?,
     val uuid: String,
     val voiceLine: VoiceLine
 ):Serializable

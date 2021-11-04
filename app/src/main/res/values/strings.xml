@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Valorant Api</string>
+    <string name="agent_role_icon_string">AGENT_ROLE_ICON</string>
 </resources>
