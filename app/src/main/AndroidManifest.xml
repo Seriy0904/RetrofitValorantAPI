@@ -16,10 +16,10 @@
         android:theme="@style/Theme.ValorantApi"
         tools:targetApi="31" >
         <activity
-            android:name=".activities.SelectedAgentActivity"
+            android:name=".ui.SelectedAgentActivity"
             android:exported="false" />
         <activity
-            android:name=".activities.MainActivity"
+            android:name=".ui.MainActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
