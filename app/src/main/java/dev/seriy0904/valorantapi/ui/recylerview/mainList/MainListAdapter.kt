@@ -8,8 +8,8 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import dev.seriy0904.valorantapi.Api.Data
 import dev.seriy0904.valorantapi.R
+import dev.seriy0904.valorantapi.api.Data
 import dev.seriy0904.valorantapi.ui.SelectedAgentActivity
 
 class MainListAdapter : RecyclerView.Adapter<MainListAdapter.ViewHolder>() {
@@ -19,6 +19,10 @@ class MainListAdapter : RecyclerView.Adapter<MainListAdapter.ViewHolder>() {
         val agentName: TextView = itemView.findViewById(R.id.mainlist_item_name)
         val agentIcon: ImageView = itemView.findViewById(R.id.mainlist_item_icon)
         val agentDescription: TextView = itemView.findViewById(R.id.mainlist_item_description)
+    }
+
+    fun isLoaded(): Boolean{
+        return mainListModels.size>0
     }
 
     fun setList(newList: ArrayList<Data>) {

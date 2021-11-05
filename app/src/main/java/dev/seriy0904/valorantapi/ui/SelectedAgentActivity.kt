@@ -10,8 +10,8 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import dev.seriy0904.valorantapi.Api.Ability
-import dev.seriy0904.valorantapi.Api.Data
+import dev.seriy0904.valorantapi.api.Ability
+import dev.seriy0904.valorantapi.api.Data
 import dev.seriy0904.valorantapi.R
 import dev.seriy0904.valorantapi.ui.recylerview.abilitiesList.AbilitiesListAdapter
 

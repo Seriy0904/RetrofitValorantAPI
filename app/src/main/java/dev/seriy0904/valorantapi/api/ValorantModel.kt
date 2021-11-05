@@ -1,4 +1,4 @@
-package dev.seriy0904.valorantapi.Api
+package dev.seriy0904.valorantapi.api
 
 import java.io.Serializable
 

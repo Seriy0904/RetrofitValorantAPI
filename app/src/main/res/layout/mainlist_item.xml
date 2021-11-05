@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="1dp"
+    android:foreground="?android:attr/selectableItemBackground"
     android:background="@color/main_color"
     android:padding="14dp">
 
@@ -18,6 +19,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_toEndOf="@id/mainlist_item_icon"
+        android:fontFamily="@font/valorant_font"
         android:textColor="@color/red_main_color"
         android:textSize="20sp"
         tools:text="KillJoy" />

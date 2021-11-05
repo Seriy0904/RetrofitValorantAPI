@@ -12,4 +12,5 @@
     <color name="main_color_lighter">#103140</color>
     <color name="red_main_color">#FF4654</color>
     <color name="grey">#535353</color>
+    <color name="grey_darker">#111111</color>
 </resources>
