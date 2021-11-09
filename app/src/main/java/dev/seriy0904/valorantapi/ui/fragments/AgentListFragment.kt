@@ -1,7 +1,6 @@
 package dev.seriy0904.valorantapi.ui.fragments
 
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -10,8 +9,8 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
-import dev.seriy0904.valorantapi.api.RetrofitUtil
 import dev.seriy0904.valorantapi.R
+import dev.seriy0904.valorantapi.api.RetrofitUtil
 import dev.seriy0904.valorantapi.ui.recylerview.mainList.MainListAdapter
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
@@ -34,7 +33,6 @@ class AgentListFragment : Fragment() {
     }
 
     override fun onResume() {
-        Log.d("MyTag","Resume")
         super.onResume()
     }
     private fun loadList() {

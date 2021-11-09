@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:overScrollMode="never"
     android:layout_height="match_parent"
     android:background="@color/main_color"
     tools:context=".ui.SelectedMapActivity">
@@ -24,6 +25,7 @@
             android:layout_height="wrap_content" />
 
         <View
+            android:layout_marginTop="4dp"
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:background="@color/grey" />
@@ -36,5 +38,11 @@
             android:fontFamily="@font/valorant_font"
             android:textColor="@color/red_main_color"
             android:textSize="24sp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/calloutsRecycler"
+            android:layout_width="match_parent"
+            tools:listitem="@layout/map_callouts_item"
+            android:layout_height="wrap_content"/>
     </LinearLayout>
 </androidx.core.widget.NestedScrollView>

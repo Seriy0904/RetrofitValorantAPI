@@ -26,7 +26,7 @@ data class MapInfo(
 data class Callouts(
     val location: Location,
     val regionName: String,
-    val superRegionName: String
+    var superRegionName: String
 ):Serializable
 
 data class Location(
